@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #262626;
+    color: #fff;
+    padding: 50px;
+    line-height: 30px;
+}
+
+#arrow{
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
